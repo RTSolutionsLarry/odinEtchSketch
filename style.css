@@ -9,6 +9,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#squareCount {
+    background-color: lightgray;
 }
 
 .sketchContainer {
@@ -26,6 +36,16 @@ body {
 
 .box {
     flex: 1;
-    background-color: aquamarine;
+    background-color: lightgray;
+}
+
+.mouseOver {
+    background-color: black;
+}
+
+button {
     border: solid black 1px;
+    font-size: medium;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
